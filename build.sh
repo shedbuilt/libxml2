@@ -6,6 +6,6 @@ sed -i '/_PyVerify_fd/,+1d' python/types.c
 ./configure --prefix=/usr    \
             --disable-static \
             --with-history   \
-            --with-python=/usr/bin/python3 || return 1
-make -j $SHED_NUMJOBS || return 1
-make DESTDIR="$SHED_FAKEROOT" install || return 1
+            --with-python=/usr/bin/python3 && \
+make -j $SHED_NUMJOBS && \
+make DESTDIR="$SHED_FAKEROOT" install
