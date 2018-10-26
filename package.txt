@@ -1,7 +1,7 @@
 NAME=libxml2
-VERSION=2.9.7
-REVISION=1
-SRC=http://xmlsoft.org/sources/libxml2-2.9.7.tar.gz
-SRCMD5=896608641a08b465098a40ddf51cefba
+VERSION=2.9.8
+REVISION=2
+SRC=http://xmlsoft.org/sources/libxml2-2.9.8.tar.gz
+SRCMD5=b786e353e2aa1b872d70d5d1ca0c740d
 BUILDDEPS=python3
 INSTALLDEPS=python3
